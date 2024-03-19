@@ -77,6 +77,7 @@
 			display: block;
 		}
 		header nav {
+			z-index: 100;
 			position: absolute;
 			width: 70%;
 			height: 100%;
