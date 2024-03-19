@@ -1,9 +1,9 @@
 <script>
-	import '../app.css';
+	import "../../app.css"
 	import GoThreeBars from 'svelte-icons/go/GoThreeBars.svelte';
 	import GoX from 'svelte-icons/go/GoX.svelte';
 	import { writable } from 'svelte/store';
-	import icon from '../images/wolficon_cut.png';
+	
 
 	import { onMount } from 'svelte';
 
@@ -22,7 +22,7 @@
 <header class="text-white">
 	<div class="navbar">
 		<div class=" flex items-center justify-center w-12 h-12">
-			<img src={icon} class="rounded-full" alt="Logo" />
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGKGuCeQ4gs9_R3qjCT_v4TQ1wdbeLq3b9JA&usqp=CAU" class="rounded-full" alt="Logo" />
 		</div>
 		<ul class="links">
 			<li>
@@ -72,7 +72,7 @@
 		position: sticky;
 		top: 0;
 		bottom: 0;
-		background-color: rgba(0, 0, 0, 0.8); /* Adjust the transparency */
+		background-color: #000000; /* Adjust the transparency */
 		z-index: 1000; /* Ensure the navbar is on top of other elements */
 		padding: 0 2rem;
 	}
