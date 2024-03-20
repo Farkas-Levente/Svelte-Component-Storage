@@ -6,6 +6,7 @@
 	import Navbar2 from '../components/Navbars/Navbar2.svelte';
 	import FLipCard2 from '../components/Cards/FLipCard2.svelte';
 	import StaticCard from '../components/Cards/StaticCard.svelte';
+	import FlipCard3 from '../components/Cards/FlipCard3.svelte';
 </script>
 
 <section>
@@ -42,11 +43,35 @@
 	<FLipCard2 imageSrc="https://picsum.photos/id/287/250/300">The Day</FLipCard2>
 	<FLipCard2 imageSrc="https://picsum.photos/id/287/250/300">The Day</FLipCard2>
 </section>
+<section class="middle gap-10">
+	<FlipCard3
+		titleOffsetPX="200"
+		imageSrc="https://img.freepik.com/premium-photo/free-photo-beautiful-nature-hd-8k-wallpaper-stock-photographic-image_915071-68230.jpg"
+		title="Frozen Lake"
+		>This is the filler text that will show you the description of the image or whatever you want to
+		see and it will darken the view.</FlipCard3
+	>
+	<FlipCard3
+		titleOffsetPX="200"
+		imageSrc="https://img.freepik.com/premium-photo/free-photo-beautiful-nature-hd-8k-wallpaper-stock-photographic-image_915071-68230.jpg"
+		title="Frozen Lake"
+		>This is the filler text that will show you the description of the image or whatever you want to
+		see and it will darken the view.</FlipCard3
+	>
+	<FlipCard3
+		titleOffsetPX="200"
+		imageSrc="https://img.freepik.com/premium-photo/free-photo-beautiful-nature-hd-8k-wallpaper-stock-photographic-image_915071-68230.jpg"
+		title="Frozen Lake"
+		>This is the filler text that will show you the description of the image or whatever you want to
+		see and it will darken the view.</FlipCard3
+	>
+</section>
 <section class="middle mt-10">
 	<StaticCard color="#3ecd53" subtext="Subtext comes here">Some text to fill the space.</StaticCard>
 	<StaticCard color="#e44002" subtext="Subtext comes here">Some text to fill the space.</StaticCard>
 	<StaticCard color="#cd3e94" subtext="Subtext comes here">Some text to fill the space.</StaticCard>
 </section>
+
 <section>
 	<Socials></Socials>
 </section>
