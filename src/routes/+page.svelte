@@ -7,6 +7,8 @@
 	import FLipCard2 from '../components/Cards/FLipCard2.svelte';
 	import StaticCard from '../components/Cards/StaticCard.svelte';
 	import FlipCard3 from '../components/Cards/FlipCard3.svelte';
+	import StaticCard2 from '../components/Cards/StaticCard2.svelte';
+	import GoogleMap from '../components/Others/GoogleMap.svelte';
 </script>
 
 <section>
@@ -72,6 +74,14 @@
 	<StaticCard color="#cd3e94" subtext="Subtext comes here">Some text to fill the space.</StaticCard>
 </section>
 
+<section class="middle mt-10 mb-10 gap-10">
+	<StaticCard2></StaticCard2>
+	<StaticCard2></StaticCard2>
+	<StaticCard2></StaticCard2>
+</section>
+<section>
+	<GoogleMap></GoogleMap>
+</section>
 <section>
 	<Socials></Socials>
 </section>
