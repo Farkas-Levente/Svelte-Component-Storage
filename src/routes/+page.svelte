@@ -9,6 +9,7 @@
 	import FlipCard3 from '../components/Cards/FlipCard3.svelte';
 	import StaticCard2 from '../components/Cards/StaticCard2.svelte';
 	import GoogleMap from '../components/Others/GoogleMap.svelte';
+	import Slider from '../components/Others/Slider.svelte';
 </script>
 
 <section>
@@ -81,6 +82,9 @@
 </section>
 <section>
 	<GoogleMap></GoogleMap>
+</section>
+<section class=" mb-56 mt-56">
+	<Slider></Slider>
 </section>
 <section>
 	<Socials></Socials>
